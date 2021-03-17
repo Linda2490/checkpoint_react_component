@@ -1,0 +1,55 @@
+.dev img {
+    
+    width: 200px;
+    animation: laptop 10s linear infinite
+}
+.dev {
+    display: flex;
+    justify-content: space-between;
+}
+@keyframes laptop {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    150% {
+        opacity: 1;
+    }
+    200% {
+        opacity: 1;
+    }
+    220% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+    270% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(200vh);
+        opacity: 0;
+    }
+}
+.dev img:nth-child(1) {
+    animation-delay: 2s;
+}
+.dev img:nth-child(2) {
+    animation-delay: 4s;
+}
+.dev img:nth-child(3) {
+    animation-delay: 5.2s;
+}
+.dev img:nth-child(4) {
+    animation-delay: 7s;
+}
+.dev img:nth-child(5) {
+    animation-delay: 8s;
+}
